@@ -97,7 +97,7 @@ export const resume = [
     icon: <BusinessCenter/>,
     year: '2023 - Present',
     title: 'Web Developer <span>FreeLance</span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel justo in nisi gravida consectetur.'
+    desc: 'Successfully Completed MERN stack development course from Banoq Qabil Program'
   },
   {
     id: 2,
@@ -105,21 +105,21 @@ export const resume = [
     icon: <School/>,
     year: '2021 - 2025',
     title: 'Bachelor of Science in Software Engineering <span>UOK</span>',
-    desc: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+    desc: 'Currently in 4th year of University with the outstanding performance and gpa of 3.7'
   },  {
     id: 3,
     category: 'Education',
     icon: <School/>,
     year: '2018 - 2020',
     title: 'Intermediate in Pre-Engineering <span>Formen Govt College</span>',
-    desc: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+    desc: 'Passed Intermediate with 70% marks'
   },  {
     id: 4,
     category: 'Education',
     icon: <School/>,
     year: '2008 - 2018',
     title: 'Matric In Science <span>Bahria Foundation</span>',
-    desc: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+    desc: 'Passed Matric education with 82% '
   },
   {
     id: 5,
@@ -127,7 +127,7 @@ export const resume = [
     icon: <BusinessCenter/>,
     year: '2023 - Present',
     title: 'Ui/Ux <span>Projects</span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel justo in nisi gravida consectetur.'
+    desc: 'Made few projects in UI/UX when i was in first Year of my Uni'
   },
   {
     id: 6,
@@ -135,7 +135,7 @@ export const resume = [
     icon: <BusinessCenter/>,
     year: '2023 - Present',
     title: 'Sql Queries <span>Uni Projects</span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel justo in nisi gravida consectetur.'
+    desc: 'Made a project based on sql and php in second year of my uni'
   },
 ];
 export const portfolio = [
@@ -147,22 +147,22 @@ export const portfolio = [
       {
         icon: <InsertDriveFile />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Instagram Clone',
       },
       {
         icon: <Person />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Practice Project',
       },
       {
         icon: <Code />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'App created on : ',
+        desc: 'React js',
       },
       {
         icon: <Launch />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'Project Link : ',
+        desc: 'https://github.com/Chuck672991/Instagram_clone',
       },
     ],
   },  {
@@ -173,22 +173,22 @@ export const portfolio = [
       {
         icon: <InsertDriveFile />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'News App',
       },
       {
         icon: <Person />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Practice Project',
       },
       {
         icon: <Code />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'App Created on : ',
+        desc: 'React js',
       },
        {
         icon: <Launch />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'Project Link  : ',
+        desc: 'https://github.com/Chuck672991/news_project',
       },
     ],
   },  {
@@ -208,13 +208,13 @@ export const portfolio = [
       },
       {
         icon: <Code />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'App Created On : ',
+        desc: 'React js',
       },
       {
         icon: <Launch />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'Project Link : ',
+        desc: 'https://github.com/Chuck672991/Messenger-Clone',
       },
     ],
   },  {
@@ -230,17 +230,17 @@ export const portfolio = [
       {
         icon: <Person />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Practice Project',
       },
       {
         icon: <Code />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'App Created On : ',
+        desc: 'React js',
       },
       {
         icon: <Launch />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'Project Link : ',
+        desc: 'Not Uploaded on git yet',
       },
     ],
   },  {
@@ -260,13 +260,13 @@ export const portfolio = [
       },
       {
         icon: <Code />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'App Created On : ',
+        desc: 'React js',
       },
       {
         icon: <Launch />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'Project Link : ',
+        desc: 'https://github.com/Chuck672991/Amazon-Clone',
       },
     ],
   },  {
@@ -277,22 +277,22 @@ export const portfolio = [
       {
         icon: <InsertDriveFile />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Netflix Clone',
       },
       {
         icon: <Person />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Project For React Practice',
       },
       {
         icon: <Code />,
-        title: 'Language : ',
-        desc: 'Javascript',
+        title: 'Project Link : ',
+        desc: 'https://haider-netflix-clone.vercel.app/',
       },
       {
         icon: <Description />,
         title: 'React Js Netflix Project : ',
-        desc: 'A cool website to watch trailer of trending movies and other more categories of movies  ',
+        desc: 'Can watch trailers, of differnt categories of movies',
       },
     ],
   },
