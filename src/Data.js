@@ -1,9 +1,14 @@
-import { BusinessCenter,School,Description,Launch } from "@mui/icons-material";
+import { BusinessCenter, School, Description, Launch } from "@mui/icons-material";
 import netFlix from "./images/netflixClone.png"
 import igClone from "./images/instagramClone.png"
 import mClone from "./images/MessengerClone.png"
+import DeliveryApp from "./images/DeliveryApp.jpeg"
+import breakTime from "./images/breakTime.jpeg"
+import CMS from "./images/CMS.jpg"
 import ytClone from "./images/maxresdefault.jpg"
-import aClone from "./images/Amazonclone.jpg"
+import Iot from "./images/Iot.jpeg"
+import carpool from "./images/carpool.jpeg"
+import samuraiSys from "./images/samuraiSys.jpeg"
 import theme1 from "./images/drop (1).png"
 import theme2 from "./images/drop.png"
 import theme3 from "./images/drop (2).png"
@@ -21,298 +26,298 @@ import { InsertDriveFile } from "@mui/icons-material";
 import { Person } from "@mui/icons-material";
 import { Code } from "@mui/icons-material";
 
-export const personalInfo = [ 
+export const personalInfo = [
   { id: 1, title: "First Name", description: "Haider" },
   { id: 2, title: "Last Name", description: "Ali" },
-  { id: 3, title: "Age", description: "20 years" },
+  { id: 3, title: "Age", description: "22 years" },
   { id: 4, title: "Nationality", description: "Pakistani" },
   { id: 5, title: "Freelance", description: "Available" },
   { id: 6, title: "Address", description: "B-1 Liaquatabad Karachi" },
   { id: 7, title: "Phone", description: "03002420112" },
-  { id: 8, title: "Email", description: "haiderali2275@gmail.com" },
-  { id: 9, title: "Instagram", description: "haiderx__x" },
-  { id: 10, title: "Language", description: "Urdu, English" },
+  { id: 8, title: "Email", description: "ha33216@gmail.com" },
+  { id: 10, title: "Language", description: "Urdu, English,Arabic" },
 ];
 
 export const stats = [
-  { id: 1, no: "1+", title: "Years of <br /> Experience" },
-  { id: 2, no: "5+", title: "Completed <br /> Projects" },
-  { id: 3, no: "3+", title: "Happy<br /> Customers" },
-  { id: 4, no: "1+", title: "Certificates <br /> Accomplished" },
+  { id: 1, no: "3+", title: "Years of <br /> Experience" },
+  { id: 2, no: "55+", title: "Completed <br /> Projects" },
+  { id: 3, no: "100+", title: "Happy<br /> Customers" },
+  { id: 4, no: "3+", title: "Certificates <br /> Accomplished" },
 ];
 
 export const skills = [
   {
     id: 1,
-    title: "Html",
-    percentage: "65",
+    title: "HTML, CSS, JavaScript",
+    percentage: "90",
   },
   {
     id: 2,
-    title: "Css",
-    percentage: "54",
+    title: "React.js & React Native",
+    percentage: "90",
   },
   {
     id: 3,
-    title: "Javascript",
-    percentage: "42",
+    title: "React Three Fiber",
+    percentage: "80",
   },
   {
     id: 4,
-    title: "React",
-    percentage: "60",
+    title: "Next.js",
+    percentage: "90",
   },
   {
     id: 5,
-    title: "Mongo",
-    percentage: "25",
+    title: "Redux Toolkit",
+    percentage: "90",
   },
   {
     id: 6,
-    title: "Node",
-    percentage: "35",
+    title: "Tanstack Query",
+    percentage: "90",
   },
   {
     id: 7,
-    title: "Express",
-    percentage: "15",
+    title: "Material UI & Radix UI",
+    percentage: "90",
   },
-
   {
     id: 8,
-    title: "Ui/Ux",
-    percentage: "35",
+    title: "Tailwind CSS",
+    percentage: "90",
   },
   {
     id: 9,
     title: "Firebase",
-    percentage: "50",
+    percentage: "80",
+  },
+  {
+    id: 10,
+    title: "Fastify",
+    percentage: "70",
+  },
+  {
+    id: 11,
+    title: "MongoDB",
+    percentage: "80",
+  },
+  {
+    id: 12,
+    title: "SQL",
+    percentage: "80",
+  },
+  {
+    id: 13,
+    title: "Node.js",
+    percentage: "80",
   },
 ];
+
 
 export const resume = [
   {
     id: 1,
     category: 'Work Experience',
-    icon: <BusinessCenter/>,
-    year: '2023 - Present',
-    title: 'Web Developer <span>FreeLance</span>',
-    desc: 'Successfully Completed MERN stack development course from Banoq Qabil Program'
+    icon: <BusinessCenter />,
+    year: '01/2024 – Present',
+    title: 'Frontend Developer <span>360XpertSolutions</span>',
+    desc: 'Worked on several applications and website projects using React Native, React.js, and Next.js. Ensuring responsiveness, scalability, performance optimization, and SEO. Collaborated with backend, SQA, project managers, and design teams. Led app projects from concept to deployment, ensuring timely and high-quality outcomes.'
   },
   {
     id: 2,
-    category: 'Education',
-    icon: <School/>,
-    year: '2021 - 2025',
-    title: 'Bachelor of Science in Software Engineering <span>UOK</span>',
-    desc: 'Currently in 4th year of University with the outstanding performance and gpa of 3.7'
-  },  {
+    category: 'Work Experience',
+    icon: <BusinessCenter />,
+    year: '03/2024 – 11/2024',
+    title: 'Web Developer <span>Freelance</span>',
+    desc: 'Built a fully functional TypeScript-based Tradymate CMS platform for trading professional services through a web platform. <a href="https://app.tradymate.com/" target="_blank">View Project</a>'
+  },
+  {
     id: 3,
     category: 'Education',
-    icon: <School/>,
-    year: '2018 - 2020',
-    title: 'Intermediate in Pre-Engineering <span>Formen Govt College</span>',
-    desc: 'Passed Intermediate with 70% marks'
-  },  {
+    icon: <School />,
+    year: '2021 - 2025',
+    title: 'Bachelor of Science in Software Engineering <span>UOK</span>',
+    desc: 'Currently in 4th year of university with outstanding performance and a GPA of 3.7.'
+  },
+  {
     id: 4,
     category: 'Education',
-    icon: <School/>,
-    year: '2008 - 2018',
-    title: 'Matric In Science <span>Bahria Foundation</span>',
-    desc: 'Passed Matric education with 82% '
+    icon: <School />,
+    year: '2018 - 2020',
+    title: 'Intermediate in Pre-Engineering <span>Formen Govt College</span>',
+    desc: 'Passed Intermediate with 70% marks.'
   },
   {
     id: 5,
-    category: 'Work Experience',
-    icon: <BusinessCenter/>,
-    year: '2023 - Present',
-    title: 'Ui/Ux <span>Projects</span>',
-    desc: 'Made few projects in UI/UX when i was in first Year of my Uni'
-  },
-  {
-    id: 6,
-    category: 'Work Experience',
-    icon: <BusinessCenter/>,
-    year: '2023 - Present',
-    title: 'Sql Queries <span>Uni Projects</span>',
-    desc: 'Made a project based on sql and php in second year of my uni'
-  },
+    category: 'Education',
+    icon: <School />,
+    year: '2008 - 2018',
+    title: 'Matric In Science <span>Bahria Foundation</span>',
+    desc: 'Passed Matric education with 82%.'
+  }
 ];
+
 export const portfolio = [
   {
     id: 1,
-    img: igClone,
-    title: 'Instagram Clone',
+    img: samuraiSys,
+    title: 'Samurai Systems',
     details: [
       {
         icon: <InsertDriveFile />,
-        title: 'Project : ',
-        desc: 'Instagram Clone',
-      },
-      {
-        icon: <Person />,
-        title: 'Client : ',
-        desc: 'Practice Project',
+        title: 'Project:',
+        desc: 'BreakTime (Web & App), Inventory Management System',
       },
       {
         icon: <Code />,
-        title: 'App created on : ',
-        desc: 'React js',
-      },
-      {
-        icon: <Launch />,
-        title: 'Project Link : ',
-        desc: 'https://github.com/Chuck672991/Instagram_clone',
-      },
-    ],
-  },  {
-    id: 2,
-    img: news,
-    title: 'News App',
-    details: [
-      {
-        icon: <InsertDriveFile />,
-        title: 'Project : ',
-        desc: 'News App',
-      },
-      {
-        icon: <Person />,
-        title: 'Client : ',
-        desc: 'Practice Project',
-      },
-      {
-        icon: <Code />,
-        title: 'App Created on : ',
-        desc: 'React js',
-      },
-       {
-        icon: <Launch />,
-        title: 'Project Link  : ',
-        desc: 'https://github.com/Chuck672991/news_project',
-      },
-    ],
-  },  {
-    id: 3,
-    img: mClone,
-    title: 'Messenger Clone',
-    details: [
-      {
-        icon: <InsertDriveFile />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <Person />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <Code />,
-        title: 'App Created On : ',
-        desc: 'React js',
-      },
-      {
-        icon: <Launch />,
-        title: 'Project Link : ',
-        desc: 'https://github.com/Chuck672991/Messenger-Clone',
-      },
-    ],
-  },  {
-    id: 4,
-    img: ytClone,
-    title: 'Youtube Clone',
-    details: [
-      {
-        icon: <InsertDriveFile />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <Person />,
-        title: 'Client : ',
-        desc: 'Practice Project',
-      },
-      {
-        icon: <Code />,
-        title: 'App Created On : ',
-        desc: 'React js',
-      },
-      {
-        icon: <Launch />,
-        title: 'Project Link : ',
-        desc: 'Not Uploaded on git yet',
-      },
-    ],
-  },  {
-    id: 5,
-    img: aClone,
-    title: 'Amazon Clone',
-    details: [
-      {
-        icon: <InsertDriveFile />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <Person />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <Code />,
-        title: 'App Created On : ',
-        desc: 'React js',
-      },
-      {
-        icon: <Launch />,
-        title: 'Project Link : ',
-        desc: 'https://github.com/Chuck672991/Amazon-Clone',
-      },
-    ],
-  },  {
-    id: 6,
-    img: netFlix,
-    title: 'Netflix Clone',
-    details: [
-      {
-        icon: <InsertDriveFile />,
-        title: 'Project : ',
-        desc: 'Netflix Clone',
-      },
-      {
-        icon: <Person />,
-        title: 'Client : ',
-        desc: 'Project For React Practice',
-      },
-      {
-        icon: <Code />,
-        title: 'Project Link : ',
-        desc: 'https://haider-netflix-clone.vercel.app/',
-      },
-      {
-        icon: <Description />,
-        title: 'React Js Netflix Project : ',
-        desc: 'Can watch trailers, of differnt categories of movies',
+        title: 'Tech Stack:',
+        desc: 'React.js, GSAP',
       },
     ],
   },
- 
-  // Repeat the structure for the remaining portfolio items
+  // {
+  //   id: 2,
+  //   img: attendanceApp,
+  //   title: '360 Attendance App',
+  //   details: [
+  //     {
+  //       icon: <InsertDriveFile />,
+  //       title: 'Project:',
+  //       desc: 'Attendance tracking mobile application',
+  //     },
+  //     {
+  //       icon: <Code />,
+  //       title: 'Tech Stack:',
+  //       desc: 'React Native, Firebase, Geo Locations, Reanimated',
+  //     },
+  //   ],
+  // },
+  {
+    id: 3,
+    img: Iot,
+    title: 'Eagle IoT Car Tracking App',
+    details: [
+      {
+        icon: <InsertDriveFile />,
+        title: 'Project:',
+        desc: 'Car tracking mobile application',
+      },
+      {
+        icon: <Code />,
+        title: 'Tech Stack:',
+        desc: 'React Native, Google Maps, Geo Location, Redux Toolkit, Firebase for push notifications',
+      },
+    ],
+  },
+  {
+    id: 4,
+    img: CMS,
+    title: 'Qatar Govt CMS',
+    details: [
+      {
+        icon: <InsertDriveFile />,
+        title: 'Project:',
+        desc: 'Large-scale TypeScript-based CMS for managing government sectors and indicators',
+      },
+      {
+        icon: <Code />,
+        title: 'Tech Stack:',
+        desc: 'React.js, TypeScript, Ant Design (AntD), Zustand, React Query, Authentication & Authorization, i18n',
+      },
+      {
+        icon: <Description />,
+        title: 'Features:',
+        desc: 'Dashboards, graphs, performance metrics, and data visualization',
+      },
+    ],
+  },
+  {
+    id: 5,
+    img: carpool,
+    title: 'Carpool BYKEA (Web & App)',
+    details: [
+      {
+        icon: <InsertDriveFile />,
+        title: 'Project:',
+        desc: 'Ride-sharing platform for office-goers and students,check the demo here (https://www.loom.com/share/74c9a5bf908141939ada3aa1cd7e4504)',
+      },
+      {
+        icon: <Code />,
+        title: 'Tech Stack:',
+        desc: 'React.js, JSX, Tailwind CSS, Redux Toolkit, Google Maps API, WebSockets, GraphQL',
+      },
+      {
+        icon: <Description />,
+        title: 'Features:',
+        desc: 'Real-time tracking, cost-efficient ride-sharing system',
+      },
+    ],
+  },
+  {
+    id: 6,
+    img: DeliveryApp,
+    title: 'BYKEA Delivery WebApp',
+    details: [
+      {
+        icon: <InsertDriveFile />,
+        title: 'Project:',
+        desc: 'Rider & Vendor Management Platform for Restaurants',
+      },
+      {
+        icon: <Code />,
+        title: 'Tech Stack:',
+        desc: 'React.js, Google Maps API, Redux Toolkit, Firebase',
+      },
+      {
+        icon: <Description />,
+        title: 'Features:',
+        desc: 'Real-time rider tracking, automated & manual order assignments',
+      },
+    ],
+  },
+  {
+    id: 7,
+    img: breakTime,
+    title: 'Final Year Project 1 - Inventory Management System',
+    details: [
+      {
+        icon: <InsertDriveFile />,
+        title: 'Project : ',
+        desc: 'Inventory Management System',
+      },
+      {
+        icon: <Person />,
+        title: 'Client : ',
+        desc: 'University Final Year Project',
+      },
+      {
+        icon: <Code />,
+        title: 'FrontEnd : ',
+        desc: 'React Native, React Native Vision Camera, Redux Toolkit',
+      },
+      {
+        icon: <Code />,
+        title: 'Backend : ',
+        desc: 'Node.js (Express.js), PostgreSQL, Firebase Cloud Messaging (FCM), Socket.io',
+      },
+      {
+        icon: <Description />,
+        title: 'Features : ',
+        desc: 'Order tracking, QR code scanning, and order processing',
+      },
+]}
 ];
 
-export const themes =[ 
-   { id: 1, img: theme2, color: 'hsl(0, 80%, 50%)' },
-   { id: 2, img: theme1, color: 'hsl(30, 80%, 50%)' },
-  { id: 3, img: theme3, color: 'hsl(60, 80%, 50%)' },
-   { id: 4, img: theme4, color: 'hsl(120, 80%, 50%)' },
-   { id: 5, img: theme6, color: 'hsl(180, 80%, 50%)' },//ok
-   { id: 6, img: theme7, color: 'hsl(210, 80%, 50%)' },
-  //  { id: 7, img: theme8, color: 'hsl(240, 80%, 50%)' },
-  //  { id: 8, img: theme8, color: 'hsl(300, 80%, 50%)' },
-  //  { id: 9, img: theme9, color: 'hsl(330, 80%, 50%)' },
-  //  { id: 10, img: theme11, color: 'hsl(45, 80%, 50%)' },
-   { id: 11, img: theme10, color: 'hsl(200, 79%, 70%)  ' },
 
-
-
-]
+export const themes = [
+  { id: 1, img: theme2, color: 'hsl(0, 78%, 55%)' },   // Vivid Red  
+  { id: 2, img: theme1, color: 'hsl(25, 85%, 55%)' },  // Warm Orange  
+  { id: 3, img: theme3, color: 'hsl(50, 85%, 55%)' },  // Golden Yellow  
+  { id: 4, img: theme4, color: 'hsl(135, 70%, 50%)' }, // Fresh Green  
+  { id: 5, img: theme6, color: 'hsl(190, 85%, 55%)' }, // Teal Blue  
+  { id: 6, img: theme7, color: 'hsl(220, 75%, 60%)' }, // Cool Blue  
+  { id: 7, img: theme8, color: 'hsl(260, 75%, 65%)' }, // Soft Purple  
+  { id: 8, img: theme9, color: 'hsl(290, 80%, 60%)' }, // Vibrant Violet  
+  { id: 9, img: theme10, color: 'hsl(330, 75%, 65%)' },// Playful Pink  
+  { id: 10, img: theme11, color: 'hsl(200, 80%, 70%)' } // Light Aqua  
+];
