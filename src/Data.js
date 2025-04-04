@@ -228,6 +228,10 @@ export const portfolio = [
         icon: <Description />,
         title: 'Features:',
         desc: 'Dashboards, graphs, performance metrics, and data visualization',
+      },{
+        icon: <Description />,
+        title: 'Info:',
+        desc: 'THis App is confidential as its managed by Qatar Govt, only accessible to authroized people',
       },
     ],
   },
@@ -239,7 +243,7 @@ export const portfolio = [
       {
         icon: <InsertDriveFile />,
         title: 'Project:',
-        desc: 'Ride-sharing platform for office-goers and students,check the demo here (https://www.loom.com/share/74c9a5bf908141939ada3aa1cd7e4504)',
+        desc: 'Ride-sharing platform for office-goers and students ',
       },
       {
         icon: <Code />,
@@ -250,6 +254,11 @@ export const portfolio = [
         icon: <Description />,
         title: 'Features:',
         desc: 'Real-time tracking, cost-efficient ride-sharing system',
+      },
+      {
+        icon: <Code />,
+        title: 'Link : ',
+        desc: 'https://www.loom.com/share/74c9a5bf908141939ada3aa1cd7e4504',
       },
     ],
   },
@@ -300,10 +309,17 @@ export const portfolio = [
         title: 'Backend : ',
         desc: 'Node.js (Express.js), PostgreSQL, Firebase Cloud Messaging (FCM), Socket.io',
       },
+
+      // https://www.loom.com/share/169eb45c80b04576b0b8f39401f1f5f1
       {
         icon: <Description />,
         title: 'Features : ',
         desc: 'Order tracking, QR code scanning, and order processing',
+      },
+      {
+        icon: <Code />,
+        title: 'Link : ',
+        desc: ' https://www.loom.com/share/169eb45c80b04576b0b8f39401f1f5f1',
       },
 ]}
 ];
