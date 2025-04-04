@@ -20,15 +20,20 @@ const PortfolioItem = ({ img, title, details }) => {
           <ul className="modal_list grid">
             {details.map(({ icon, title, desc }, index) => {
               return (
+                <>
                 <li className="modal_item" key={index}>
                   <span className="item_icon">{icon}</span>
                   <div>
                     <span className="item_title">{title}</span>
                     <span className="item_details">{desc}</span>
-                    
+
                   </div>
-                    
+                   
                 </li>
+                 <div>
+                 {title.includes('Link') && <p> {title}</p>}
+               </div>
+               </>
               );
             })}
           </ul>

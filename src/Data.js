@@ -330,7 +330,7 @@ export const portfolio = [
       },
       {
         icon: <Code />,
-        title: 'Link : ',
+        title: 'Link',
         desc: ' https://www.loom.com/share/169eb45c80b04576b0b8f39401f1f5f1',
       },
 ]}
