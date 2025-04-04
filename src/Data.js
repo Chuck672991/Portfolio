@@ -173,6 +173,12 @@ export const portfolio = [
         title: 'Tech Stack:',
         desc: 'React.js, GSAP',
       },
+      {
+        icon: <Code />,
+        title: 'Link :',
+        desc: 'https://www.loom.com/share/e52c77fca5cb458cab3e41e433847c89',
+      },
+      // https://www.loom.com/share/e52c77fca5cb458cab3e41e433847c89
     ],
   },
   // {
@@ -196,6 +202,7 @@ export const portfolio = [
     id: 3,
     img: Iot,
     title: 'Eagle IoT Car Tracking App',
+    // https://www.loom.com/share/da4d86d9e2cb422f8961e0a0012843ea
     details: [
       {
         icon: <InsertDriveFile />,
@@ -206,6 +213,11 @@ export const portfolio = [
         icon: <Code />,
         title: 'Tech Stack:',
         desc: 'React Native, Google Maps, Geo Location, Redux Toolkit, Firebase for push notifications',
+      },
+      {
+        icon: <Code />,
+        title: 'Link:',
+        desc: 'https://www.loom.com/share/da4d86d9e2cb422f8961e0a0012843ea',
       },
     ],
   },
