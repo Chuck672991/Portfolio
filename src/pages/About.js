@@ -15,7 +15,7 @@ gsap.registerPlugin(ScrollTrigger);
 const About = () => {
   const infoRef = useRef(null);
   const skillsRef = useRef(null);
-
+  const resumeRef = useRef(null);
   useEffect(() => {
     // Personal Info Fade In + Stagger
     gsap.fromTo(
@@ -47,6 +47,49 @@ const About = () => {
         scrollTrigger: {
           trigger: skillsRef.current,
           start: "top 80%",
+        },
+      }
+    );
+ // Animate Work Experience from left
+    gsap.fromTo(
+      resumeRef.current.querySelectorAll('.resume_data:first-child .resume_item'),
+      {
+        opacity: 0,
+        x: -100,
+        skewX: 5,
+      },
+      {
+        opacity: 1,
+        x: 0,
+        skewX: 0,
+        duration: 1,
+        stagger: 0.2,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: resumeRef.current,
+          start: 'top 85%',
+        },
+      }
+    );
+  
+    // Animate Education from right
+    gsap.fromTo(
+      resumeRef.current.querySelectorAll('.resume_data:last-child .resume_item'),
+      {
+        opacity: 0,
+        x: 100,
+        skewX: -5,
+      },
+      {
+        opacity: 1,
+        x: 0,
+        skewX: 0,
+        duration: 1,
+        stagger: 0.2,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: resumeRef.current,
+          start: 'top 85%',
         },
       }
     );
@@ -85,25 +128,26 @@ const About = () => {
 
       <div className='separator' />
 
-      <section className="resume">
-        <h3 className="section_subtitle subtitle_center">Experience And Education</h3>
-        <div className='resume_container grid'>
-          <div className='resume_data'>
-            {resume.map((val) =>
-              val.category === "Work Experience" ? (
-                <ResumeItem key={val.id} {...val} />
-              ) : null
-            )}
-          </div>
-          <div className='resume_data'>
-            {resume.map((val) =>
-              val.category === "Education" ? (
-                <ResumeItem key={val.id} {...val} />
-              ) : null
-            )}
-          </div>
-        </div>
-      </section>
+      <section className="resume" ref={resumeRef}>
+  <h3 className="section_subtitle subtitle_center">Experience And Education</h3>
+  <div className='resume_container grid'>
+    <div className='resume_data'>
+      {resume.map((val) =>
+        val.category === "Work Experience" ? (
+          <ResumeItem key={val.id} {...val} />
+        ) : null
+      )}
+    </div>
+    <div className='resume_data'>
+      {resume.map((val) =>
+        val.category === "Education" ? (
+          <ResumeItem key={val.id} {...val} />
+        ) : null
+      )}
+    </div>
+  </div>
+</section>
+
     </main>
   );
 };
